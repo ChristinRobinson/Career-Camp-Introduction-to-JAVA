@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        // Write your code here
+
+        Scanner scan = new Scanner(System.in);
+
+        int x,n;
+        x = scan.nextInt();
+        n = scan.nextInt();
+
+        if( (x>=0 && x<=8) && (n>=0 && n<=9) ) {
+
+            int ans = 1;
+            while(n>0) {
+                ans *= x;
+                n--;
+            }
+            System.out.println(ans);
+        }
+
+    }
+}

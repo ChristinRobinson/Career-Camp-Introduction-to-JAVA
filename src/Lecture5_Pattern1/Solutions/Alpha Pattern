@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+
+        Scanner scan = new Scanner(System.in);
+
+        int n = scan.nextInt();
+
+        if(n>=0 && n<=26) {
+            int currRow = 1;
+            char ithChar = 'A';
+            while(currRow<=n) {
+
+                int currCol = 1;
+                while(currCol<=currRow) {
+                    System.out.print(ithChar);
+                    currCol++;
+                }
+
+                System.out.println();
+            	ithChar = (char) (ithChar + 1);
+                currRow++;
+            }
+
+        }
+
+	}
+
+}

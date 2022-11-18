@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Solution {
+
+
+	public static void main(String[] args) {
+
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+
+        Scanner scan = new Scanner(System.in);
+
+        int n = scan.nextInt();
+
+        if(n>=0 && n<=13) {
+            int currRow = 1;
+            char ch;
+            while(currRow<=n) {
+
+                int currCol = 1;
+                ch = (char) ('A' + (currRow -1));
+                while(currCol<=currRow) {
+                    System.out.print(ch);
+                    ch = (char) (ch + 1);
+                    currCol++;
+                }
+
+                System.out.println();
+                currRow++;
+            }
+        }
+
+	}
+
+}

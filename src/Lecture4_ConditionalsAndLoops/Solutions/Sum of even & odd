@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Write your code here
+
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+
+        if( n>=0 && n<=100000000 /*10^8*/){
+
+            int sumOfOddDigits = 0,sumOfEvenDigits = 0;
+
+            while(n>0) {
+                if( (n%10)%2 == 1 ) {
+                    sumOfOddDigits += n%10;
+                } else {
+                    sumOfEvenDigits += n%10;
+                }
+                n = n/10;
+            }
+
+        	System.out.println(sumOfEvenDigits + " " + sumOfOddDigits);
+
+        }
+
+	}
+}

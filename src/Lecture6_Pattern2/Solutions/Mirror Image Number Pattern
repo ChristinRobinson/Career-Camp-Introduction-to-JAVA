@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+		
+        Scanner scan = new Scanner(System.in);
+		
+        int n = scan.nextInt();
+        
+        if(n>=0 && n<=50) {
+            int currRow = 1;
+            while(currRow<=n) {                
+            
+                int space = 1;
+                while(space<=n-currRow){				
+                    System.out.print(" ");
+                    space++;
+                }
+                
+                int p = 1;
+                while(p<=currRow) {
+                    System.out.print(p);
+                    p++;
+                }
+                
+                System.out.println();
+                currRow++;                
+            }
+        }
+        
+	}
+
+}
