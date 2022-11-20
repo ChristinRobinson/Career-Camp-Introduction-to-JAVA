@@ -2,190 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07be5e14-f36e-466e-9114-b6c1af8e8d96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Career-Camp-Introduction-to-JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/FaultyKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/FindMaximumSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/RectangularNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/Solutions/Faulty Keyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/Solutions/Find Maximum Subarray Sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseTest1/Solutions/Rectangular numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/CheckArrayRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/PushZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/SecondLargestInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/Sort_0_1_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture10_Arrays2_SearchingAndSorting/SumOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture11_2DArrays/LargestRowOrColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture11_2DArrays/PrintLikeAWave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture11_2DArrays/PrintSpiral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture11_2DArrays/RowWiseSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture11_2DArrays/TotalSumOnTheBoundaries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/AllSubStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/CheckPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/CompressTheString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/HighestOccurringCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/RemoveCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/RemoveConsecutiveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/ReverseEachWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/ReverseStringWordWise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture12_Strings/StringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/ArrayEquilibriumIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/ArrayIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/DuplicateInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/FindTheUniqueElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/PairSumInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture13_TimeComplexity/TripletSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/All fibonacci numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Average of three numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Check Number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Check Prime Number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Check triangle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Find GCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Find Product" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Member of Fibonacci" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Print Even Numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Sum of evens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture1_FlowCharts/Valid Triangle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/AverageMarks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Files/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Files/ArithematicOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Files/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Files/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Files/TakingInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture2_GettingStartedWithJava/Solutions/Average Marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture3_HowIsDataStored/Files/DatatypeStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture3_HowIsDataStored/Files/TypeConversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Factors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/FahrenheitToCelsiusTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/CheckPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/ConditionalAndRelational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/LargestOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/RelationalLogicalOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/ReturnKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/ScopeOfVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/SumOfNNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Files/WhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/FindCharacterCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/FindPowerOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Factors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Fahrenheit to Celsius Table" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Find Character Case" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Find power of a number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Multiplication Table" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Sum of even &amp; odd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/Solutions/Total Salary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/SumOfEvenAndOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture4_ConditionalsAndLoops/TotalSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/AlphaPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/CharacterPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Files/BasicPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Files/CharacterPatterns1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Files/CharacterPatterns2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Files/SquarePatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Files/TriangularPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/InterestingAlphabets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/ReverseNumberPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Alpha Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Character Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Interesting Alphabets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Reverse Number Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Square Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Triangle Number Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/Solutions/Triangular Star Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/SquarePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/TriangleNumberPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture5_Pattern1/TriangularStarPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/DiamondOfStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Files/InvertedTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Files/IsoscelesTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Files/MirrorImagePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/HalfDiamondPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/InvertedNumberPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/MirrorImageNumberPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/OddSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/ParallelogramPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Diamond of Stars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Half Diamond Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Inverted Number Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Mirror Image Number Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Odd Square" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Parallelogram Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Star Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Sum Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/Solutions/Triangle of Numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/StarPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/SumPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture6_Pattern2/TriangleOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/AllPrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/BinaryToDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/CheckNumberSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/BitwiseOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/BitwiseOperators2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/ForLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/ForLoopsVariation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/IncrementDecrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Files/Precendence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/NthFibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/ReverseOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/All Prime Numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Binary to Decimal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Check Number Sequence" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Decimal to Binary" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Nth Fibonacci Number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Reverse Of A Number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Square Root (Integral)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Sum or Product" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/Solutions/Terms of AP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/SquareRoot_Integral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/SumOrProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture7_OperatorsAndForLoop/TermsOfAP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FahrenheitToCelsiusTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Calculating NcR" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/What and Why of Functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/ArrangeNumbersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/FindUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/IntersectionOfTwoArrays_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/PairSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/ReturnArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/Sort_0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/SwapAlternate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture9_Arrays/TripletSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/CheckAP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/NumberStarPattern1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/Solutions/Check AP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/Solutions/Number Star Pattern 1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test1/Solutions/Palindrome numbers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/MaximumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/NumberStarPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/Probability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/Solutions/Maximum number" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/Solutions/Number Star Pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2/Solutions/Probability" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/FindLeadersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/MaximiseTheSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/MinimumLengthWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/Solutions/Find Leaders in array" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/Solutions/Maximise the sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test3/Solutions/Minimum Length Word" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Check Prime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Function Overloading" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Functions with void return type" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/How function calling works" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Pass by value" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Scope of Variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Updating the value" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Writing More Functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Solutions/Fahrenheit to Celsius Table" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Solutions/Fibonacci Number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FahrenheitToCelsiusTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FahrenheitToCelsiusTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FibonacciNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Learnings/Career Camp Freshers/Courses/Full Stack Web Development/Career-Camp-Introduction-to-JAVA/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learnings/Career Camp Freshers/Courses/Full Stack Web Development/Career-Camp-Introduction-to-JAVA/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learnings\Career Camp Freshers\Courses\Full Stack Web Development\Career-Camp-Introduction-to-JAVA\src" />
@@ -242,7 +71,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

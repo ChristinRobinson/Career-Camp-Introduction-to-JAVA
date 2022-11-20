@@ -1,29 +1,44 @@
 package Lecture8_FunctionsAndScope;
 
-//public class FibonacciNumber {
-//
-//    public static class Solution {
-//
-//        public static boolean checkMember(int n){
-//
-//            /* Your class should be named Solution
-//             * Don't write main().
-//             * Don't read input, it is passed as function argument.
-//             * Return output and don't print it.
-//             * Taking input and printing output is handled automatically.
-//             */
-//
-//        }
-//
-//    }
-//
-//    public static void main(String[] args) {
-//        Scanner s = new Scanner(System.in);
-//        int n = s.nextInt();
-//        System.out.println(Solution.checkMember(n));
-//    }
-//
-//}
+import java.util.Scanner;
+
+public class FibonacciNumber {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        System.out.println(checkMember(n));
+    }
+
+    public static boolean checkMember(int n){
+
+        /* Your class should be named Solution
+         * Don't write main().
+         * Don't read input, it is passed as function argument.
+         * Return output and don't print it.
+         * Taking input and printing output is handled automatically.
+         */
+
+        if(n == 0 || n == 1) {
+            return true;
+        }
+
+        int prev = 0, current = 1;
+        int fib = prev + current;
+        while(fib <= n) {
+            if(fib == n) {
+                return true;
+            }
+
+            prev = current;
+            current = fib;
+            fib = prev + current;
+        }
+
+        return false;
+
+    }
+}
 
 //Fibonacci Number
 //Send Feedback
