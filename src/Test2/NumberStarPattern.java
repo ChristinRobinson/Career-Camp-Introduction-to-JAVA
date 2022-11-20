@@ -1,11 +1,30 @@
 package Test2;
 
+import java.util.Scanner;
+
 public class NumberStarPattern {
 
     public static void main(String[] args) {
 
         // Write your code here
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
 
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= (n - i) + 1; j++) {
+                System.out.print(j);
+            }
+            for(int star = 1; star <= i - 1; star++) {
+                System.out.print('*');
+            }
+            for(int star = 1; star <= i - 1; star++) {
+                System.out.print('*');
+            }
+            for(int j = (n - i) + 1; j >= 1; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
     }
 }
 

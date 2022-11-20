@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07be5e14-f36e-466e-9114-b6c1af8e8d96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Check Prime" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Function Overloading" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Functions with void return type" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/How function calling works" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Pass by value" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Scope of Variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Updating the value" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Files/Writing More Functions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Solutions/Fahrenheit to Celsius Table" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/Solutions/Fibonacci Number" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FahrenheitToCelsiusTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FahrenheitToCelsiusTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lecture8_FunctionsAndScope/FibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/MaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/MaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/NumberStarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/NumberStarPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/Probability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/Probability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/Solutions/Maximum number" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/Solutions/Maximum number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/Solutions/Number Star Pattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/Solutions/Number Star Pattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/Solutions/Probability" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/Solutions/Probability" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,26 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learnings\Career Camp Freshers\Courses\Full Stack Web Development\Career-Camp-Introduction-to-JAVA\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MaximumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2.MaximumNumber" />
+      <module name="Career-Camp-Introduction-to-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MaximumNumber" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -4,23 +4,39 @@ import java.util.Scanner;
 
 public class Probability {
 
-//    public static void main(String[] args) {
-//        Scanner s = new Scanner(System.in);
-//        int n = s.nextInt();
-//        int x=s.nextInt();
-//        System.out.println(probability(n,x));
-//    }
-//
-//    public static int probability(int n,int x){
-//
-//        /* Your class should be named Solution
-//         * Don't write main().
-//         * Don't read input, it is passed as function argument.
-//         * Return output and don't print it.
-//         * Taking input and printing output is handled automatically.
-//         */
-//
-//    }
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int x=s.nextInt();
+        System.out.println(probability(n,x));
+    }
+
+    public static int probability(int n,int x){
+
+        /* Your class should be named Solution
+         * Don't write main().
+         * Don't read input, it is passed as function argument.
+         * Return output and don't print it.
+         * Taking input and printing output is handled automatically.
+         */
+
+        int ans = ncr(4, x) * ncr( 4,n - x);
+        float probab = ans * 1.0f / ncr(8, n);
+        return (int)(probab * 100);
+    }
+
+    public static int fact(int number) {
+        int ans = 1;
+        for(int i = 1; i <= number; i++) {
+            ans *= i;
+        }
+        return ans;
+    }
+
+    public static int ncr(int n, int r) {
+        return (fact(n)/fact(n - r)) / fact(r);
+    }
+
 }
 
 //Probability
