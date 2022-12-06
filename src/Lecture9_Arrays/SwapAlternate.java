@@ -6,14 +6,20 @@ import java.io.InputStreamReader;
 
 public class SwapAlternate {
 
-    public static class Solution {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        public static void swapAlternate(int[] arr) {
-            //Your code goes here
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int t = Integer.parseInt(br.readLine().trim());
+
+        while(t > 0) {
+
+            int[] input = takeInput();
+            swapAlternate(input);
+            printArray(input);
+
+            t -= 1;
         }
     }
-
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static int[] takeInput() throws IOException {
         int size = Integer.parseInt(br.readLine().trim());
@@ -41,19 +47,14 @@ public class SwapAlternate {
         System.out.println();
     }
 
-    public static void main(String[] args) throws NumberFormatException, IOException {
-        int t = Integer.parseInt(br.readLine().trim());
-
-        while(t > 0) {
-
-            int[] input = takeInput();
-            Solution.swapAlternate(input);
-            printArray(input);
-
-            t -= 1;
+    public static void swapAlternate(int[] arr) {
+        //Your code goes here
+        for(int i = 0;  i < arr.length - 1; i += 2) {
+            int temp = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = temp;
         }
     }
-
 }
 
 //Swap Alternate

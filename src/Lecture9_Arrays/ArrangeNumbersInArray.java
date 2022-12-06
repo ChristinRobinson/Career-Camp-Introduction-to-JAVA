@@ -6,22 +6,7 @@ import java.io.InputStreamReader;
 
 public class ArrangeNumbersInArray {
 
-    public static class Solution {
-
-        public static void arrange(int[] arr, int n) {
-            //Your code goes here
-        }
-    }
-
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-
-    public static void printArray(int[] arr) {
-        for (int element : arr) {
-            System.out.print(element + " ");
-        }
-        System.out.println();
-    }
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         int t = Integer.parseInt(br.readLine().trim());
@@ -37,6 +22,30 @@ public class ArrangeNumbersInArray {
         }
     }
 
+    public static void printArray(int[] arr) {
+        for (int element : arr) {
+            System.out.print(element + " ");
+        }
+        System.out.println();
+    }
+
+    public static class Solution {
+
+        public static void arrange(int[] arr, int n) {
+            //Your code goes here
+            int start = 0;
+            int end = n - 1;
+            for(int value = 1; value <= n; value++) {
+                if(value % 2 == 1) {
+                    arr[start] = value;
+                    start++;
+                } else {
+                    arr[end] = value;
+                    end--;
+                }
+            }
+        }
+    }
 }
 
 //Arrange Numbers In Array

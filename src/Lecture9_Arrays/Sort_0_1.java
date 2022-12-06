@@ -6,14 +6,20 @@ import java.io.InputStreamReader;
 
 public class Sort_0_1 {
 
-    public static class Solution {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        public static void sortZeroesAndOne(int[] arr) {
-            //Your code goes here
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int t = Integer.parseInt(br.readLine().trim());
+
+        while(t > 0) {
+
+            int[] input = takeInput();
+            sortZeroesAndOne(input);
+            printArray(input);
+
+            t -= 1;
         }
     }
-
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static int[] takeInput() throws IOException {
         int size = Integer.parseInt(br.readLine().trim());
@@ -42,19 +48,19 @@ public class Sort_0_1 {
         System.out.println();
     }
 
-    public static void main(String[] args) throws NumberFormatException, IOException {
-        int t = Integer.parseInt(br.readLine().trim());
+    public static void sortZeroesAndOne(int[] arr) {
+        //Your code goes here
+        int nextZero = 0;
+        for(int i = 0; i < arr.length; i++) {
 
-        while(t > 0) {
-
-            int[] input = takeInput();
-            Solution.sortZeroesAndOne(input);
-            printArray(input);
-
-            t -= 1;
+            if(arr[i] == 0) {
+                int temp = arr[nextZero];
+                arr[nextZero] = arr[i];
+                arr[i] = temp;
+                nextZero += 1;
+            }
         }
     }
-
 }
 
 //Sort 0 1

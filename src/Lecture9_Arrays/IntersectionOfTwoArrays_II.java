@@ -6,14 +6,21 @@ import java.io.InputStreamReader;
 
 public class IntersectionOfTwoArrays_II {
 
-    public static class Solution{
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        public static void intersections(int[] arr1, int[] arr2) {
-            //Your code goes here
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int t = Integer.parseInt(br.readLine().trim());
+
+        while(t > 0) {
+
+            int[] input1 = takeInput();
+            int[] input2 = takeInput();
+            intersections(input1, input2);
+            System.out.println();
+
+            t -= 1;
         }
     }
-
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static int[] takeInput() throws IOException {
         int size = Integer.parseInt(br.readLine().trim());
@@ -34,21 +41,19 @@ public class IntersectionOfTwoArrays_II {
         return input;
     }
 
+    public static void intersections(int[] arr1, int[] arr2) {
+        //Your code goes here
+        for (int i : arr1) {
+            for (int j : arr2) {
 
-    public static void main(String[] args) throws NumberFormatException, IOException {
-        int t = Integer.parseInt(br.readLine().trim());
-
-        while(t > 0) {
-
-            int[] input1 = takeInput();
-            int[] input2 = takeInput();
-            Solution.intersections(input1, input2);
-            System.out.println();
-
-            t -= 1;
+                if (i == arr2[j]) {
+                    System.out.print(i + " ");
+                    arr2[j] = Integer.MIN_VALUE;
+                    break;
+                }
+            }
         }
     }
-
 }
 
 //Intersection of Two Arrays II

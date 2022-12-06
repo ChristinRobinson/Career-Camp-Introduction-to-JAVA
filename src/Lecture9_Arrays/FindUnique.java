@@ -1,49 +1,66 @@
 package Lecture9_Arrays;
 
-//public class FindUnique {
-//
-//    public static class Solution{
-//
-//        public static int findUnique(int[] arr){
-//            //Your code goes here
-//        }
-//    }
-//
-//    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//
-//    public static int[] takeInput() throws IOException {
-//        int size = Integer.parseInt(br.readLine().trim());
-//        int[] input = new int[size];
-//
-//        if (size == 0) {
-//            return input;
-//        }
-//
-//        String[] strNums;
-//        strNums = br.readLine().split("\\s");
-//
-//
-//        for (int i = 0; i < size; ++i) {
-//            input[i] = Integer.parseInt(strNums[i]);
-//        }
-//
-//        return input;
-//    }
-//
-//
-//    public static void main(String[] args) throws NumberFormatException, IOException {
-//        int t = Integer.parseInt(br.readLine().trim());
-//
-//        while(t > 0) {
-//
-//            int[] input = takeInput();
-//            System.out.println(Solution.findUnique(input));
-//
-//            t -= 1;
-//        }
-//    }
-//
-//}
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class FindUnique {
+
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int t = Integer.parseInt(br.readLine().trim());
+
+        while(t > 0) {
+
+            int[] input = takeInput();
+            System.out.println(findUnique(input));
+
+            t -= 1;
+        }
+    }
+
+    public static int[] takeInput() throws IOException {
+        int size = Integer.parseInt(br.readLine().trim());
+        int[] input = new int[size];
+
+        if (size == 0) {
+            return input;
+        }
+
+        String[] strNums;
+        strNums = br.readLine().split("\\s");
+
+
+        for (int i = 0; i < size; ++i) {
+            input[i] = Integer.parseInt(strNums[i]);
+        }
+
+        return input;
+    }
+
+    public static int findUnique(int[] arr){
+        //Your code goes here
+        for(int i = 0; i < arr.length; i++) {
+
+            int j = 0;
+            while( j < arr.length) {
+                if(i != j) {
+                    if(arr[i] == arr[j]) {
+                        break;
+                    }
+                }
+                j++;
+            }
+
+            if (j == arr.length) {
+                return arr[i];
+            }
+        }
+
+        return Integer.MAX_VALUE;
+    }
+}
 
 //Find Unique
 //Send Feedback
